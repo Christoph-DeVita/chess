@@ -1,42 +1,46 @@
-#gameboard {
-    width: 400px;
-    height: 400px;
+#gameboard{
+    width:320px ;
+    height: 320px ;
     display: flex;
     flex-wrap: wrap;
 }
 
+
 .square{
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     position: relative;
 }
+
 .square svg{
-    height: 35px;
-    width: 35px;
-    padding: 7px;
+    height: 30px;
+    width: 30px;
+    margin: 5px;
     position: relative;
     z-index: -2;
 }
+
 .path{
     position: relative;
-    z-index: -2;
+    z-index: -3;
 }
 .piece{
     position: relative;
-    z-index: 1;
+    z-index: 3;
+
 }
-.brown{
-    background-color: rgb(151, 52, 52);
+.beige{
+  background-color: rgb(112, 112, 47);
 }
 
-.beige{
-    background-color: rgba(0, 0, 0, 0.264);
+.brown{
+  background-color: rgb(159, 36, 36);
+
 }
+
 .black{
-    /*svg us fill property*/
-    fill: black;
+    fill: rgb(7, 7, 7);
 }
 .white{
-    /*svg us fill property*/
-    fill: #faf6f6;
+    fill: white;
 }
