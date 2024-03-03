@@ -2,8 +2,8 @@ const gameBoard = document.querySelector("#gameboard");
 const playerDisplay = document.querySelector("#player");
 const infoDisplay = document.querySelector("#info-display");
 const width = 8;
-let playerGo = "black";
-playerDisplay.textContent = "black";
+let playerGo = "white";
+playerDisplay.textContent = "white";
 
 const startPieces = [
     rook, knight, bishop, queen, king, bishop, knight, rook,
